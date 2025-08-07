@@ -1,0 +1,496 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: black;
+}
+.main-niv {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+.container {
+  margin-top: 8px;
+}
+.container a {
+  text-decoration: none;
+  padding: 30px;
+  color: white;
+}
+.main-btn {
+  background-color: rgb(23, 23, 23);
+  color: white;
+  cursor: pointer;
+  padding: 8px 20px;
+  border: solid #393939;
+  border-radius: 10px;
+}
+.main-btn:hover {
+  background-color: black;
+}
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.bgc-image {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+}
+
+.one {
+  background-color: rgb(23, 23, 23);
+  font-size: 14px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+  color: #fff;
+  border: solid #393939;
+  border-radius: 40px;
+  padding: 3px 25px;
+  margin-top: 90px;
+}
+
+.center-text {
+  display: flex;
+  justify-content: center;
+}
+.center-text2 {
+  color: white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.two {
+  text-align: center;
+  font-size: 60px;
+  width: 890px;
+  height: 150px;
+  flex-wrap: wrap;
+  padding: 15px;
+  font-weight: bold;
+}
+.only {
+  background-image: linear-gradient(to right, #503eef, #9f2bf3);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.three {
+  /* position: relative; */
+  font-size: 20px;
+  color: #b6b5b5;
+}
+.main-btn2 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin: 40px;
+  gap: 16px;
+}
+.first-btn {
+  font-size: 18px;
+  border: solid black;
+  width: fit-content;
+  padding: 8px 30px;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.first-btn:hover {
+  background-color: rgb(209, 209, 209);
+}
+
+.second-btn {
+  font-size: 18px;
+  border: solid black;
+  width: fit-content;
+  padding: 8px 30px;
+  align-items: center;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  cursor: pointer;
+  border: solid rgb(81, 81, 81);
+}
+.second-btn:hover {
+  background-color: rgb(23, 23, 23);
+}
+.main-btm {
+  display: flex;
+  justify-content: center;
+}
+.btm-one {
+  margin-top: 30px;
+  font-size: 50px;
+  color: white;
+}
+.temp-card {
+  background-image: linear-gradient(to right, #503eef, #9f2bf3);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.btm-two {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  color: #b6b5b5;
+}
+.btm-btn {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.Search {
+  background-color: rgb(38, 38, 38);
+  padding: 8px 150px;
+  border-radius: 8px;
+  color: #ffffff;
+  border: none;
+}
+.txt {
+  color: white;
+  font-size: 23px;
+}
+.Banks {
+  background-color: rgb(38, 38, 38);
+  padding: 8px 150px;
+  border-radius: 8px;
+  color: #ffffff;
+  border: none;
+}
+.Sort {
+  background-color: rgb(38, 38, 38);
+  padding: 8px 150px;
+  border-radius: 8px;
+  color: #ffffff;
+  border: none;
+}
+.checkbox {
+  display: flex;
+  justify-content: left;
+  margin-left: 40px;
+  gap: 20px;
+}
+.txt2 {
+  color: white;
+  font-size: 20px;
+}
+.tick {
+  accent-color: rgb(38, 38, 38);
+  transform: scale(1.5);
+}
+
+.headofcard {
+  display: flex;
+  justify-content: center;
+  gap: 5 0px;
+}
+.card {
+  background: #111;
+  border-radius: 22px;
+  border: 2px solid #393939;
+  box-shadow: 0 4px 32px 0 #000a;
+  color: #fff;
+  max-width: 400px;
+  margin: 48px auto;
+  padding: 36px 32px 28px 32px;
+  font-family: inherit;
+  position: relative;
+  font-size: 0.97rem;
+}
+.card-top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+.badge-premium {
+  background: linear-gradient(90deg, #ffb300 60%, #ffea00 100%);
+  color: #222;
+  font-weight: 700;
+  font-size: 0.85rem;
+  border-radius: 10px;
+  padding: 4px 12px 4px 12px;
+  box-shadow: 0 2px 8px #ffb30044;
+  letter-spacing: 0.5px;
+  display: inline-block;
+}
+.card-rating {
+  color: #ffd600;
+  font-size: 1.3rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.card-rating .star {
+  font-size: 1.4em;
+  margin-right: 2px;
+}
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 2px;
+  margin-top: 8px;
+}
+.card-issuer {
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 22px;
+}
+.card-details-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+  gap: 16px;
+}
+.card-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.detail-label {
+  color: #8b92a9;
+  font-size: 0.98rem;
+  margin-bottom: 2px;
+}
+.detail-value {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #fff;
+}
+.card-benefits-row {
+  margin-bottom: 18px;
+}
+.benefits-label {
+  background: #525252;
+  color: #fff;
+  font-size: 0.98rem;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 3px 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.benefits-list {
+  display: flex;
+  gap: 18px;
+  margin-top: 14px;
+}
+.benefit-pill {
+  background: #ededed;
+  color: #222;
+  border-radius: 20px;
+  padding: 8px 16px;
+  font-size: 0.98rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  border: none;
+}
+.benefit-pill .icon {
+  font-size: 1.3em;
+}
+.card-rewards-box {
+  background: #232323;
+  border-radius: 18px;
+  padding: 18px 22px 14px 22px;
+  margin-bottom: 28px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.rewards-title {
+  color: #00e676;
+  font-weight: 700;
+  font-size: 1.18rem;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.rewards-title .icon {
+  font-size: 1.3em;
+}
+.rewards-desc {
+  color: #fff;
+  font-size: 1.08rem;
+}
+.card-summary-btn {
+  width: 100%;
+  background: #181818;
+  color: #fff;
+  border: 2px solid #393939;
+  border-radius: 14px;
+  padding: 12px 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+  margin-top: 18px;
+  letter-spacing: 0.5px;
+}
+.card-summary-btn:hover {
+  background: linear-gradient(90deg, #503eef 0%, #9f2bf3 100%);
+  color: #fff;
+  border: 2px solid #9f2bf3;
+}
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px 24px;
+  max-width: 1120px; /* 7xl */
+  margin: 48px auto 0 auto;
+}
+.card-grid .card {
+  flex: 0 0 31.5%;
+  max-width: 31.5%;
+  min-width: 320px;
+  font-size: 0.92rem;
+  box-sizing: border-box;
+}
+.card {
+  padding: 22px 16px 14px 16px;
+  border-radius: 14px;
+  font-size: 0.89rem;
+}
+.card-title {
+  font-size: 1.15rem;
+}
+.card-issuer {
+  font-size: 0.92rem;
+}
+.detail-label,
+.benefits-label,
+.rewards-title {
+  font-size: 0.89rem;
+}
+.detail-value {
+  font-size: 0.98rem;
+}
+.benefit-pill {
+  font-size: 0.89rem;
+  padding: 6px 10px;
+}
+.card-summary-btn {
+  font-size: 0.95rem;
+  padding: 8px 0;
+}
+.card-top-row {
+  margin-bottom: 10px;
+}
+.card-details-row,
+.card-benefits-row {
+  margin-bottom: 10px;
+}
+.card-rewards-box {
+  padding: 10px 12px 8px 12px;
+  margin-bottom: 14px;
+  border-radius: 10px;
+}
+@media (max-width: 1200px) {
+  .card-grid {
+    max-width: 900px;
+  }
+  .card-grid .card {
+    flex: 0 0 45%;
+    max-width: 45%;
+    min-width: 220px;
+  }
+}
+@media (max-width: 900px) {
+  .card-grid {
+    max-width: 98vw;
+    gap: 18px 0;
+  }
+  .card-grid .card {
+    flex: 0 0 98vw;
+    max-width: 98vw;
+    min-width: 0;
+  }
+}
+.main-load {
+  display: flex;
+  justify-content: center;
+}
+.load {
+  display: inline-block;
+  text-align: center;
+  border: solid #393939;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  background-color: #121212;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+.load:hover {
+  background-color: rgb(23, 23, 23);
+}
+.end-text {
+  display: flex;
+  justify-content: center;
+}
+.end-text1 {
+  color: white;
+  font-size: 60px;
+  padding-top: 40px;
+}
+.Ai-Assisatnt {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to right, #877bf3, #a333f3);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.final {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+.final-txt {
+  color: #d3d3d3;
+  font-size: 20px;
+  padding: 10px;
+}
+.ftr {
+  color: #c1c1c1;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.footer {
+  border-top: solid #303030;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-ftr {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-btm {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
